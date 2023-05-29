@@ -1,6 +1,39 @@
 <!DOCTYPE html>
 <html  >
 <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-564BLPZ');</script>
+<!-- End Google Tag Manager -->
+<script>
+function openHubspotForm() {
+  var script = document.createElement('script');
+  script.charset = 'utf-8';
+  script.type = 'text/javascript';
+  script.src = '//js.hsforms.net/forms/embed/v2.js';
+  script.onload = function() {
+    hbspt.forms.create({
+      region: 'na1',
+      portalId: '22803762',
+      formId: '0c4d44a3-890a-4fff-b746-6611b6a383de'
+    });
+  };
+
+  document.head.appendChild(script);
+}
+</script>
+Nesse código, adicionei o atributo onclick="openHubspotForm()" ao elemento a que possui o href="index.html". Agora, quando esse link for clicado, a função openHubspotForm() será chamada, abrindo o formulário do HubSpot na mesma página.
+
+
+
+
+
+
+
+
   <!-- Site made with Mobirise Website Builder v5.8.0, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +60,10 @@
   
 </head>
 <body>
-  
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-564BLPZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
   <section data-bs-version="5.1" class="header14 cid-tElzUiSTCe mbr-fullscreen" id="header14-8">
 
     
@@ -45,7 +81,7 @@
                     <h1 class="mbr-section-title mbr-fonts-style mb-3 display-2">Proteínas <strong>baratas</strong> para seu <strong>negócio</strong></h1>
                     <p class="mbr-text mbr-fonts-style display-7">
                         Descubra como <strong>ganhar mais dinheiro</strong> e <strong>economizar</strong> comprando direto da Indústria.</p>
-                    <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="index.html"><span class="socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn"></span>Solicitar Contato</a></div>
+                    <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" onclick="openHubspotForm()"><span class="socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn"></span>Solicitar Contato</a></div>
                 </div>
             </div>
         </div>
@@ -244,7 +280,7 @@
                             <strong>Economize agora</strong></h4>
                         <p class="mbr-text mbr-fonts-style mb-4 display-7">
                             Um de nossos orientadores entrará em contato com você o mais rápido possível.</p>
-                        <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="index.html"><span class="socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn"></span>Solicitar Contato</a></div>
+                        <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" onclick="openHubspotForm()"><span class="socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn"></span>Solicitar Contato</a></div>
                     </div>
                 </div>
             </div>
